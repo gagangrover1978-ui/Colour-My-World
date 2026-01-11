@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 1s ease;
+}
+
+h1 {
+    transition: color 1s ease;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border-radius: 10px;
+    background-color: bisque;
+    border: 3px solid darkorange;
+    color: #bb5511;
+    font-family: 'arial';
+    font-weight: 900;
+    cursor: pointer;
+}
+
+button:hover {
+    border-color: #bb5511;
+    background-color: darkorange;
+    color: bisque;
+}
