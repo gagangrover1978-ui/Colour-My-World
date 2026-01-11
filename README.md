@@ -8,7 +8,7 @@ A smart, interactive web application that allows users to change the background 
 
 * **140+ Predefined Colors:** Uses an HTML5 `<datalist>` to provide a searchable dropdown of every named CSS color.
 * **Smooth Animations:** Implements a 1-second CSS transition for a "fading" effect when colors change.
-* **Dynamic Accessibility (Smart Contrast):** * Uses JavaScript to detect when a transition finishes.
+* **Dynamic Accessibility (Smart Contrast):** Uses JavaScript to detect when a transition finishes.
     * Calculates the **Relative Luminance** of the background using the formula:
         $$L = (0.2126 \times R) + (0.7152 \times G) + (0.0722 \times B)$$
     * Automatically flips the heading text to **White** for dark backgrounds and **Black** for light backgrounds.
@@ -37,6 +37,5 @@ A smart, interactive web application that allows users to change the background 
 
 ## 🚀 How to Run
 
-1.  Save the `index.html`, `style.css`, and `script.js` files in the same folder.
-2.  Add your `artist-palatte.png` icon to the folder.
-3.  Open `index.html` in any modern web browser.
+1.  Save the `index.html`, `style.css`, `script.js`, and `artist-palatte.png` files in the same folder.
+2.  Open `index.html` in any modern web browser.
