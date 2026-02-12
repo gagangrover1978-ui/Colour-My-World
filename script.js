@@ -3,7 +3,7 @@ const heading = document.querySelector('h1');
 const color_dropdown = document.querySelector('select');
 
 color_dropdown.onchange = () => {
-    body.style.backgroundColor = color_dropdown.value;
+    body.style.backgroundColor = this.value;
 }
 
 
