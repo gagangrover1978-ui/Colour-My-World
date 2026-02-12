@@ -2,8 +2,7 @@ const body = document.querySelector('body');
 const heading = document.querySelector('h1');
 const color_dropdown = document.querySelector('select');
 
-color_dropdown.onchange = event => {
-    event.preventDefault();
+color_dropdown.onchange = () => {
     body.style.backgroundColor = color_dropdown.value;
 }
 
