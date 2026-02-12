@@ -1,14 +1,12 @@
 const body = document.querySelector('body');
 const heading = document.querySelector('h1');
-const color_form = document.querySelector('form');
-const color_input = document.querySelector('#color');
+const color_dropdown = document.querySelector('select');
 
-color_form.onsubmit = change_color;
-
-function change_color(event) {
+color_dropdown.onchange = event => {
     event.preventDefault();
-    body.style.backgroundColor = color_input.value;
+    body.style.backgroundColor = color_dropdown.value;
 }
+
 
 document.addEventListener('transitionend', () => {
     const body_computed_style = window.getComputedStyle(body);
