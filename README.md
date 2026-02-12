@@ -37,5 +37,4 @@ A smart, interactive web application that allows users to change the background 
 
 ## 🚀 How to Run
 
-1.  Save the `index.html`, `style.css`, `script.js`, and `artist-palatte.png` files in the same folder.
-2.  Open `index.html` in any modern web browser.
+Just go to `gagangrover1978-ui.github.io/Colour-My-World` and see the website live!
